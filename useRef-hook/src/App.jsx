@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="main">
       <input ref={inputRef} type={name} onChange={(e) => setName(e.target.value)} />
       <h1>My name is {name}</h1>
       <button onClick={focus}>Focus</button>
